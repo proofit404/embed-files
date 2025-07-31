@@ -1,0 +1,26 @@
+{
+  "name": "embed-files",
+  "version": "0.0.1dev0",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "*",
+    "@commitlint/config-conventional": "*",
+    "@eslint/js": "*",
+    "@semantic-release/changelog": "*",
+    "@semantic-release/exec": "*",
+    "@semantic-release/git": "*",
+    "@types/eslint__js": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "danger": "*",
+    "eslint": "*",
+    "jscpd": "*",
+    "prettier": "*",
+    "remark-cli": "*",
+    "remark-lint": "*",
+    "remark-preset-lint-recommended": "*",
+    "semantic-release": "*",
+    "typescript": "*",
+    "typescript-eslint": "*"
+  }
+}
