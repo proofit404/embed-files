@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+python -m http.server --bind 0.0.0.0 8000 --directory site

@@ -1,0 +1,48 @@
+---
+strict: true
+site_name: embed-files
+site_description: LLM embeddings for text files.
+site_url: https://proofit404.github.io/embed-files
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: deep-purple
+    accent: deep-purple
+  icon:
+    logo: material/language-python
+    repo: fontawesome/brands/github
+  language: en
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+repo_name: proofit404/embed-files
+repo_url: https://github.com/proofit404/embed-files
+edit_uri: ""
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.magiclink
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+extra_javascript:
+  - javascripts/extra.js
+nav:
+  - Home:
+      - Home: index.md
+      - Installation: installation.md
+      - Changelog: changelog.md

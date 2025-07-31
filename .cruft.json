@@ -1,0 +1,27 @@
+{
+  "template": "https://github.com/proofit404/python-library-template",
+  "commit": "e3b4464fd8c0bb386d86412b6400089db9bdecea",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "is_private": false,
+      "project_name": "embed-files",
+      "__module_name": "embed_files",
+      "project_description": "LLM embeddings for text files.",
+      "author_name": "Josiah Kaviani",
+      "author_email": "proofit404@gmail.com",
+      "github_user": "proofit404",
+      "__github_repository": "https://github.com/proofit404/embed-files",
+      "__issues_url": "https://github.com/proofit404/embed-files/issues",
+      "__documentation_url": "https://proofit404.github.io/embed-files",
+      "__changelog_url": "https://proofit404.github.io/embed-files/changelog",
+      "twitter_url": "https://twitter.com/proofit404",
+      "__pypi_project": "https://pypi.org/project/embed-files",
+      "danger_github_api_token": "Z2hwXzNaT0REWXBSbFJtZ1VTQVFKbVVRYnVGMU1tczhqbzB0MGNmVgo=",
+      "docker_tag": "devweapon",
+      "_template": "https://github.com/proofit404/python-library-template",
+      "_commit": "e3b4464fd8c0bb386d86412b6400089db9bdecea"
+    }
+  },
+  "directory": null
+}
