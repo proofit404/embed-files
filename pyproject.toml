@@ -14,7 +14,13 @@ repository = "https://github.com/proofit404/embed-files"
 version = "0.0.1dev0"
 
 [tool.poetry.dependencies]
+click = "*"
+llama-cpp-python = "*"
 python = "*"
+scikit-build-core = {extras = ["pyproject", "wheels"], version = "*"}
+
+[tool.poetry.scripts]
+embed-files = "embed_files:cli"
 
 [tool.poetry.urls]
 Changelog = "https://proofit404.github.io/embed-files/changelog"
