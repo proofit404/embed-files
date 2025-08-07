@@ -7,6 +7,11 @@ LLM embeddings for text files.
 [Source Code](https://github.com/proofit404/embed-files) |
 [Task Tracker](https://github.com/proofit404/embed-files/issues)**
 
+```console
+$ embed-files -m testing/nomic-embed-text-v1.5.gguf dangerfile.ts
+{"dangerfile.ts": [0.6499522924423218, 1.8278818130493164, -0.6607582569122314, -1.2485640048980713, -0.9449502229690552]}
+```
+
 ## Questions
 
 If you have any questions, feel free to create an issue in our
