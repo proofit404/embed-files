@@ -4,6 +4,6 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-mkdir testing
+curl -L -o mxbai-embed-xsmall-v1.gguf --output-dir vendor https://huggingface.co/mixedbread-ai/mxbai-embed-xsmall-v1/resolve/main/gguf/mxbai-embed-xsmall-v1-q8_0.gguf
 
-curl -L -o nomic-embed-text-v1.5.gguf --output-dir testing https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.Q2_K.gguf
+curl -L -o nomic-embed-text-v1.5.gguf --output-dir vendor https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.Q2_K.gguf
