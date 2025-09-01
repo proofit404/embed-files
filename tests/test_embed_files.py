@@ -15,7 +15,7 @@ def test_embed_files(option_name: str) -> None:
 
     result = runner.invoke(
         cli,
-        [option_name, "testing/nomic-embed-text-v1.5.gguf", "docs/installation.md"],
+        [option_name, "vendor/nomic-embed-text-v1.5.gguf", "docs/installation.md"],
     )
     assert result.exit_code == 0
 
@@ -58,7 +58,7 @@ Error: Invalid value for '-m' / '--model': Path 'nshuasno.gguf' does not exist.
 def test_no_files_error() -> None:
     runner = CliRunner()
 
-    result = runner.invoke(cli, ["-m", "testing/nomic-embed-text-v1.5.gguf"])
+    result = runner.invoke(cli, ["-m", "vendor/nomic-embed-text-v1.5.gguf"])
     assert result.exit_code == 1
 
     assert result.output == "No files specified\n"
@@ -71,7 +71,7 @@ def test_files_does_not_exists_error() -> None:
         cli,
         [
             "--model",
-            "testing/nomic-embed-text-v1.5.gguf",
+            "vendor/nomic-embed-text-v1.5.gguf",
             "haontsuh.md",
         ],
     )

@@ -7,5 +7,5 @@ htmlcov/
 node_modules/
 package-lock.json
 site/
-testing/nomic-embed-text-v1.5.gguf
+vendor/
 venv/
